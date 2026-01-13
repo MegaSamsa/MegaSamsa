@@ -2,8 +2,8 @@
 
 ### AboutMe()
 {
-  [C#] backend developer of web applications
-  [Python] developer of Telegram chatbots
+  <div>[C#] backend developer of web applications</div>
+  <div>[Python] developer of Telegram chatbots</div>
 }
 
 ### MySkills()
