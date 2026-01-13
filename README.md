@@ -1,9 +1,12 @@
 ```c#
-// Hello.cs
+// AboutMe.cs
 
-public void About(Person me)
+public void About(Developer me)
 {
-	me.TellAbout(me.Skills.First(x => x.Name == "C#").MainInfo);      // backend developer of web applications
-	me.TellAbout(me.Skills.First(x => x.Name == "Python").MainInfo);  // developer of Telegram chatbots
+	foreach (var item in me.Skills)
+		Console.WriteLine($"[{item.Name}] {item.Description}");
+
+	// [C#] backend developer of web applications
+	// [Python] developer of Telegram chatbots
 }
 ```
